@@ -1,7 +1,9 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+
 /* 文件
    ========================================================================== */
+
 
 /**
  * 1.在所有浏览器中更正行高。
@@ -9,12 +11,16 @@
  */
 
 html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
 }
+
 
 /* Sections
    ========================================================================== */
+
 
 /**
  * 在所有浏览器中删除边距。
@@ -24,6 +30,7 @@ body {
     margin: 0;
 }
 
+
 /**
  * 在IE中一致地渲染`main`元素。
  */
@@ -31,6 +38,7 @@ body {
 main {
     display: block;
 }
+
 
 /**
  * 更正`section`中`h1`元素的字体大小和边距，
@@ -42,8 +50,10 @@ h1 {
     margin: 0.67em 0;
 }
 
+
 /* 分组内容
    ========================================================================== */
+
 
 /**
  * 1.在Firefox中添加正确的框大小。
@@ -51,10 +61,14 @@ h1 {
  */
 
 hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
 }
+
 
 /**
  * 1.在所有浏览器中更正字体大小的继承和缩放。
@@ -62,12 +76,16 @@ hr {
  */
 
 pre {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
+
 
 /* 文本级语义
    ========================================================================== */
+
 
 /**
  * Remove the gray background on active links in IE 10.
@@ -77,16 +95,21 @@ a {
     background-color: transparent;
 }
 
+
 /**
  *  1.移除Chrome 57-中的底部边框
  * 2.在Chrome，Edge，IE，Opera和Safari中添加正确的文字修饰。
  */
 
 abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */
 }
+
 
 /**
  *在Chrome，Edge和Safari中添加正确的字体粗细。
@@ -97,6 +120,7 @@ strong {
     font-weight: bolder;
 }
 
+
 /**
  * 1.在所有浏览器中更正字体大小的继承和缩放。
  * 2.在所有浏览器中更正奇数的“ em”字体大小。
@@ -105,9 +129,12 @@ strong {
 code,
 kbd,
 samp {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
+
 
 /**
  * 在所有浏览器中添加正确的字体大小。
@@ -116,6 +143,7 @@ samp {
 small {
     font-size: 80%;
 }
+
 
 /**
  * 防止`sub`和`sup`元素影响行的高度
@@ -138,8 +166,10 @@ sup {
     top: -0.5em;
 }
 
+
 /* 嵌入式内容
    ========================================================================== */
+
 
 /**
  *删除IE 10中链接内部图像的边框。
@@ -149,8 +179,10 @@ img {
     border-style: none;
 }
 
+
 /* Forms
    ========================================================================== */
+
 
 /**
  * 1.在所有浏览器中更改字体样式。
@@ -162,11 +194,16 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
 }
+
 
 /**
  * 显示IE中的溢出。
@@ -174,9 +211,11 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+    /* 1 */
     overflow: visible;
 }
+
 
 /**
  *删除Edge，Firefox和IE中文本转换的继承。
@@ -184,9 +223,11 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+    /* 1 */
     text-transform: none;
 }
+
 
 /**
  *纠正了无法在iOS和Safari中设置可点击类型的样式的问题。
@@ -198,6 +239,7 @@ button,
 [type="submit"] {
     -webkit-appearance: button;
 }
+
 
 /**
  * 在Firefox中删除内部边框和填充。
@@ -211,6 +253,7 @@ button::-moz-focus-inner,
     padding: 0;
 }
 
+
 /**
  * 恢复以前的规则未设置的焦点样式。
  */
@@ -222,6 +265,7 @@ button:-moz-focusring,
     outline: 1px dotted ButtonText;
 }
 
+
 /**
  * 更正Firefox中的填充。
  */
@@ -229,6 +273,7 @@ button:-moz-focusring,
 fieldset {
     padding: 0.35em 0.75em 0.625em;
 }
+
 
 /**
  *1.更正Edge和IE中的文字换行。
@@ -238,13 +283,20 @@ fieldset {
  */
 
 legend {
-    box-sizing: border-box; /* 1 */
-    color: inherit; /* 2 */
-    display: table; /* 1 */
-    max-width: 100%; /* 1 */
-    padding: 0; /* 3 */
-    white-space: normal; /* 1 */
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
 }
+
 
 /**
  * 在Chrome，Firefox和Opera中添加正确的垂直对齐方式。
@@ -254,6 +306,7 @@ progress {
     vertical-align: baseline;
 }
 
+
 /**
  * 删除IE 10+中的默认垂直滚动条。
  */
@@ -262,6 +315,7 @@ textarea {
     overflow: auto;
 }
 
+
 /**
  * 1.在IE 10中添加正确的框大小。
  * 2.删除IE 10中的填充。
@@ -269,9 +323,12 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
 }
+
 
 /**
  * 更正Chrome中递增和递减按钮的光标样式。
@@ -282,15 +339,19 @@ textarea {
     height: auto;
 }
 
+
 /**
  * 1.纠正Chrome和Safari中的奇怪外观。
  * 2.在Safari中更正轮廓样式。
  */
 
 [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
 }
+
 
 /**
  * 在macOS上的Chrome和Safari中删除内部填充。
@@ -300,18 +361,23 @@ textarea {
     -webkit-appearance: none;
 }
 
+
 /**
  * 1.纠正了无法在iOS和Safari中设置可点击类型的样式的问题。
  * 2.在Safari中将字体属性更改为`inherit`。
  */
 
 ::-webkit-file-upload-button {
-    -webkit-appearance: button; /* 1 */
-    font: inherit; /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
 }
+
 
 /* Interactive
    ========================================================================== */
+
 
 /*
  * 在Edge，IE 10+和Firefox中添加正确的显示。
@@ -321,6 +387,7 @@ details {
     display: block;
 }
 
+
 /*
  * 在所有浏览器中添加正确的显示。
  */
@@ -329,8 +396,10 @@ summary {
     display: list-item;
 }
 
+
 /* Misc
    ========================================================================== */
+
 
 /**
  *在IE 10+中添加正确的显示。
@@ -340,6 +409,7 @@ template {
     display: none;
 }
 
+
 /**
  * 在IE 10中添加正确的显示。
  */
@@ -348,10 +418,13 @@ template {
     display: none;
 }
 
+
 /*   *选择器 表示所有的元素   */
-*{
+
+* {
     box-sizing: border-box;
 }
+
 
 /**
 * 栅格系统：把网页分成大小相同的格子，方便快速布局
@@ -365,227 +438,310 @@ template {
 
   实现栅格系统
 */
-.container{
+
+.container {
     width: 970px;
     /*居中*/
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
 }
-.row{
+
+.row {
     margin-left: -15px;
     margin-right: -15px;
 }
-/*把屏幕分成12份，计算每份*/
-/*多元素选择器优化代码*/
-.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6, .col-md-7, .col-md-8, .col-md-9,.col-md-10, .col-md-11,.col-md-12{
 
+
+/*把屏幕分成12份，计算每份*/
+
+
+/*多元素选择器优化代码*/
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
     float: left;
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
 }
-.col-md-1{
+
+.col-md-1 {
     width: 8.33333333%;
 }
-.col-md-2{
+
+.col-md-2 {
     width: 16.66666666%;
 }
-.col-md-3{
+
+.col-md-3 {
     width: 25%;
 }
-.col-md-4{
+
+.col-md-4 {
     width: 33.33333333%;
 }
-.col-md-5{
+
+.col-md-5 {
     width: 41.66666666%;
 }
-.col-md-6{
+
+.col-md-6 {
     width: 50%;
 }
-.col-md-7{
+
+.col-md-7 {
     width: 58.33333333%;
 }
-.col-md-8{
+
+.col-md-8 {
     width: 66.66666666%;
 }
-.col-md-9{
+
+.col-md-9 {
     width: 75%;
 }
-.col-md-10{
+
+.col-md-10 {
     width: 83.33333333%;
 }
-.col-md-11{
+
+.col-md-11 {
     width: 91.66666666%;
 }
-.col-md-12{
+
+.col-md-12 {
     width: 100%;
 }
 
+
 /*列排序  从右往左拉  pull*/
-.col-md-pull-1{
+
+.col-md-pull-1 {
     right: 8.33333333%;
 }
-.col-md-pull-2{
+
+.col-md-pull-2 {
     right: 16.66666666%;
 }
-.col-md-pull-3{
+
+.col-md-pull-3 {
     right: 25%;
 }
-.col-md-pull-4{
+
+.col-md-pull-4 {
     right: 33.33333333%;
 }
-.col-md-pull-5{
+
+.col-md-pull-5 {
     right: 41.66666666%;
 }
-.col-md-pull-6{
+
+.col-md-pull-6 {
     right: 50%;
 }
-.col-md-pull-7{
+
+.col-md-pull-7 {
     right: 58.33333333%;
 }
-.col-md-pull-8{
+
+.col-md-pull-8 {
     right: 66.66666666%;
 }
-.col-md-pull-9{
+
+.col-md-pull-9 {
     right: 75%;
 }
-.col-md-pull-10{
+
+.col-md-pull-10 {
     right: 83.33333333%;
 }
-.col-md-pull-11{
+
+.col-md-pull-11 {
     right: 91.66666666%;
 }
-.col-md-pull-12{
+
+.col-md-pull-12 {
     right: 100%;
 }
+
+
 /*  列排序  从左往右推   push*/
-.col-md-push-1{
+
+.col-md-push-1 {
     left: 8.33333333%;
 }
-.col-md-push-2{
+
+.col-md-push-2 {
     left: 16.66666666%;
 }
-.col-md-push-3{
+
+.col-md-push-3 {
     left: 25%;
 }
-.col-md-push-4{
+
+.col-md-push-4 {
     left: 33.33333333%;
 }
-.col-md-push-5{
+
+.col-md-push-5 {
     left: 41.66666666%;
 }
-.col-md-push-6{
+
+.col-md-push-6 {
     left: 50%;
 }
-.col-md-push-7{
+
+.col-md-push-7 {
     left: 58.33333333%;
 }
-.col-md-push-8{
+
+.col-md-push-8 {
     left: 66.66666666%;
 }
-.col-md-push-9{
+
+.col-md-push-9 {
     left: 75%;
 }
-.col-md-push-10{
+
+.col-md-push-10 {
     left: 83.33333333%;
 }
-.col-md-push-11{
+
+.col-md-push-11 {
     left: 91.66666666%;
 }
-.col-md-push-12{
+
+.col-md-push-12 {
     left: 100%;
 }
 
+
 /*按钮类*/
-.btn{
+
+.btn {
     border: 1px solid #ccc;
     padding: 6px 12px;
     text-decoration: none;
     border-radius: 4px;
 }
-.btn-default{
+
+.btn-default {
     color: #333;
     background-color: white;
 }
-.btn-default:hover{
+
+.btn-default:hover {
     color: #333;
     background-color: #cccccc;
 }
+
+
 /*预定义样式*/
+
 .btn-primary {
     /*首选项*/
     background-color: #377BB5;
     color: #ffffff;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #2B618E;
 }
-.btn-info{
+
+.btn-info {
     /*一般信息*/
     background-color: #5bc0de;
     color: #ffffff;
 }
-.btn-info:hover{
+
+.btn-info:hover {
     background-color: darkblue;
 }
-.btn-success{
+
+.btn-success {
     /*成功信息*/
     background-color: #5cb85c;
     color: #ffffff;
 }
-.btn-success:hover{
+
+.btn-success:hover {
     background-color: darkgreen;
 }
-.btn-warning{
+
+.btn-warning {
     /*警告信息*/
     background-color: #f0ad4e;
     color: #ffffff;
 }
-.btn-warning:hover{
+
+.btn-warning:hover {
     background-color: yellow;
 }
-.btn-danger{
+
+.btn-danger {
     /*危险信息*/
     background-color: #d9534f;
     color: #ffffff;
 }
-.btn-danger:hover{
+
+.btn-danger:hover {
     background-color: darkred;
 }
 
+
 /*预定义一些背景和文本颜色 情景：首选项 一般 成功 危险 警告*/
-.bg-primary{
+
+.bg-primary {
     background-color: #377BB5;
 }
-.bg-info{
+
+.bg-info {
     background-color: #5bc0de;
 }
-.bg-success{
+
+.bg-success {
     background-color: #5cb85c;
 }
-.bg-danger{
+
+.bg-danger {
     background-color: #d9534f;
 }
-.bg-warning{
+
+.bg-warning {
     background-color: #f0ad4e;
 }
-.text-primary{
+
+.text-primary {
     color: #377BB5;
 }
-.text-info{
+
+.text-info {
     color: #5bc0de;
 }
-.text-success{
+
+.text-success {
     color: #5cb85c;
 }
-.text-danger{
+
+.text-danger {
     color: #d9534f;
 }
-.text-warning{
-    color: #f0ad4e ;
+
+.text-warning {
+    color: #f0ad4e;
 }
 
 
+/* 第n次回顾 */
